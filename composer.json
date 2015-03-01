@@ -1,0 +1,15 @@
+{
+    "name": "greyfenix/widgetproduct",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "Widget block product extension for Magento for just sold and best seller product",
+    "homepage": "https://github.com/Greyfenix/WidgetBlockProduct",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Dimas Putra"
+        }
+    ]
+}
