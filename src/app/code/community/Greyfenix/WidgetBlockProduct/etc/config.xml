@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Greyfenix_WidgetBlockProduct>
+            <version>1.0.0</version>
+        </Greyfenix_WidgetBlockProduct>
+    </modules>
+    <global>
+        <blocks>
+            <greyfenix_widgetblockproduct>
+                <class>Greyfenix_WidgetBlockProduct_Block</class>
+            </greyfenix_widgetblockproduct>
+        </blocks>
+        <helpers>
+            <greyfenix_widgetblockproduct>
+                <class>Greyfenix_WidgetBlockProduct_Helper</class>
+            </greyfenix_widgetblockproduct>
+        </helpers>
+        <models>
+            <greyfenix_widgetblockproduct>
+                <class>Greyfenix_WidgetBlockProduct_Model</class>
+            </greyfenix_widgetblockproduct>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <widgetproduct>
+                <use>standard</use>
+                <args>
+                    <module>Greyfenix_WidgetBlockProduct</module>
+                    <frontName>widgetproduct</frontName>
+                </args>
+            </widgetproduct>
+        </routers>
+    </frontend>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Greyfenix_WidgetBlockProduct>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Greyfenix_WidgetBlockProduct>
+    </modules>
+</config>
